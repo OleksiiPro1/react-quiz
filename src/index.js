@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import Quiz from "./components/Quiz";
-import { QuizProvider } from "./contexts/quiz";
+import './index.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Quiz from './components/Quiz';
+import { QuizProvider } from './contexts/quiz';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -10,5 +10,5 @@ ReactDOM.render(
       <Quiz />
     </QuizProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );
